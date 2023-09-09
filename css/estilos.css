@@ -154,6 +154,7 @@ body {
 
 .about__paragraph {
     line-height: 1.7;
+    text-align: center;
 }
 
 .about__main {
@@ -166,6 +167,16 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 
+.about__title{
+    font: bold;
+    text-decoration: underline;
+}
+
+.about__paragrah{
+    line-height: 1.5;
+    text-align: left;
+    
+}
 
 .about__icons {
     display: grid;
@@ -200,10 +211,14 @@ s
 .knowledge__picture{
     max-width: 500px;
 }
+.knowledge__img{
+    border-radius: 8%;
+}
 
 .knowledge__paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
+    
 }
 
 .knowledge__img{
