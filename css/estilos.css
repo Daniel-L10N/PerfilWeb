@@ -56,6 +56,7 @@ body {
 
 .nav__title {
     font-weight: 300;
+    font-size: 2rem;
 }
 
 .nav__link {
@@ -69,6 +70,9 @@ body {
 
 .nav__items {
     list-style: none;
+}
+.nav__links:hover{
+    color:#9d1e1e;
 }
 
 .nav__links {
@@ -95,33 +99,44 @@ body {
 
 /* Hero container */
 
+
+
 .hero__container {
-    max-width: 800px;
+    max-width: 900px;
     --padding-container: 0;
     display: grid;
     grid-auto-rows: max-content;
     align-content: center;
     gap: 1em;
     padding-bottom: 100px;
-    text-align: center;
+    padding-top: 100px;
+    text-align: center; 
 }
 
 .hero__title {
     font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
 .hero__paragraph {
+    font-size: 1.5rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .cta {
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #1a86eb;
     justify-self: center;
     color: #fff;
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+    
+}
+.cta:hover{
+    background: #0e65f0;
+    transition-delay: 0.2s;
 }
 
 /* About */
@@ -166,7 +181,7 @@ body {
 }
 
 /* Knowledge */
-
+s
 .knowledge {
     background-color: #e5e5f7;
     background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
@@ -574,6 +589,7 @@ body {
     .footer__container{
         flex-wrap: wrap;
     }
+    
 
     .nav--footer{
         width: 100%;
